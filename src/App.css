@@ -1,5 +1,46 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.links {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+}
+
+.discord {
+  color: #5865f2;
+}
+.discord:hover {
+  color: #404eed;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+.twitter:hover {
+  color: #1573ad;
+}
+
+.tiktok {
+  color: #25f4ee;
+}
+.tiktok:hover {
+  color: #19afaa;
+}
+
+.youtube {
+  color: #ff0000;
+}
+.youtube:hover {
+  color: #af0101;
 }
 
 .App-logo {

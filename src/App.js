@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  FaDiscord,
+  FaTiktok,
+  FaTwitter,
+  FaTwitch,
+  FaYoutube,
+} from "react-icons/fa";
+import "./App.css";
 
-function App() {
+const App = (props) => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      Coming Soon
+      <div className="links">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="discord"
+          href="https://discord.gg/Xe7bzpBZ"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          <FaDiscord size={50} />
         </a>
-      </header>
+        <a
+          className="tiktok"
+          href="https://vm.tiktok.com/ZMLe9cony/"
+          target="_blank"
+        >
+          <FaTiktok size={50} />
+        </a>
+        <a
+          className="twitter"
+          href="https://twitter.com/the_blobs_NFT"
+          target="_blank"
+        >
+          <FaTwitter size={50} />
+        </a>
+        {/* <a href="https://discord.gg/Xe7bzpBZ" target="_blank">
+          <FaTwitch size={50} />
+        </a> */}
+        <a
+          className="youtube"
+          href="https://www.youtube.com/channel/UCA9GZSixmruDvonbVlwQ5wA"
+          target="_blank"
+        >
+          <FaYoutube size={50} />
+        </a>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
