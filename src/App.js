@@ -16,6 +16,7 @@ const App = (props) => {
           className="discord"
           href="https://discord.gg/Xe7bzpBZ"
           target="_blank"
+          rel="noreferrer"
         >
           <FaDiscord size={50} />
         </a>
@@ -23,6 +24,7 @@ const App = (props) => {
           className="tiktok"
           href="https://vm.tiktok.com/ZMLe9cony/"
           target="_blank"
+          rel="noreferrer"
         >
           <FaTiktok size={50} />
         </a>
@@ -30,16 +32,19 @@ const App = (props) => {
           className="twitter"
           href="https://twitter.com/the_blobs_NFT"
           target="_blank"
+          rel="noreferrer"
         >
           <FaTwitter size={50} />
         </a>
         {/* <a href="https://discord.gg/Xe7bzpBZ" target="_blank">
+        rel="noreferrer"
           <FaTwitch size={50} />
         </a> */}
         <a
           className="youtube"
           href="https://www.youtube.com/channel/UCA9GZSixmruDvonbVlwQ5wA"
           target="_blank"
+          rel="noreferrer"
         >
           <FaYoutube size={50} />
         </a>
