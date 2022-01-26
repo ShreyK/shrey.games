@@ -2,7 +2,6 @@ nav {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  position: absolute;
   width: calc(100vw - 40px);
   margin: 20px;
   font-style: italic;
@@ -26,4 +25,32 @@ nav {
 a {
   color: white;
   text-decoration: none;
+}
+
+.discord {
+  color: #5865f2;
+}
+.discord:hover {
+  color: #404eed;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+.twitter:hover {
+  color: #1573ad;
+}
+
+.tiktok {
+  color: #25f4ee;
+}
+.tiktok:hover {
+  color: #19afaa;
+}
+
+.youtube {
+  color: #ff0000;
+}
+.youtube:hover {
+  color: #af0101;
 }
