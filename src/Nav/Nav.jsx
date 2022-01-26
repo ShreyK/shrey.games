@@ -15,12 +15,9 @@ const Nav = (props) => {
   return (
     <nav>
       <div className="nav-title">
-        Shrey.Games
+        Shrey.Games/theBlobs
       </div>
       <div className="nav-buttons">
-        <Link to="/blobs">theBLOBS</Link>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/account">ACCOUNT</Link>
         <a
           className="discord"
           href="https://discord.gg/Xe7bzpBZ"

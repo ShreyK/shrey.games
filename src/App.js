@@ -20,15 +20,13 @@ const App = (props) => {
         <h3 className="vertical-timeline-element-title">
           theBlobs have landed
         </h3>
+        <img
+          className="vertical-timeline-element-subtitle image mobile"
+          src="https://gateway.pinata.cloud/ipfs/QmPtjaFE64qx9Eu6Lwt5fZ2JaZ8uo8FCXQUaUdNSorwhgj/59.png"
+          alt="theBlob #59"
+        />
         <h4 className="vertical-timeline-element-subtitle">
           Blob #59 - The Money Blob
-        </h4>
-        <h4 className="vertical-timeline-element-subtitle">
-          <img
-            style={{ width: "450px" }}
-            src="https://gateway.pinata.cloud/ipfs/QmPtjaFE64qx9Eu6Lwt5fZ2JaZ8uo8FCXQUaUdNSorwhgj/59.png"
-            alt="theBlob #59"
-          />
         </h4>
         <p>
           100 Blobs have arrived. 1/1 Blobs. Each with their unique traits and

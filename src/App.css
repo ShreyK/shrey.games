@@ -19,6 +19,21 @@
   }
 }
 
+.image {
+  width: 450px;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    width: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mobile {
+    width: 125px;
+  }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
