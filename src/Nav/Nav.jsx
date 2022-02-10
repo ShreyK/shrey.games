@@ -20,7 +20,7 @@ const Nav = (props) => {
       <div className="nav-buttons">
         <a
           className="discord"
-          href="https://discord.gg/Xe7bzpBZ"
+          href="https://discord.gg/Y9bU76EuPF"
           target="_blank"
           rel="noreferrer"
         >

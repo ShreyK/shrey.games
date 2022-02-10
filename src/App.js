@@ -40,8 +40,10 @@ const App = (props) => {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         icon={<FaFlagCheckered />}
       >
-        <h3 className="vertical-timeline-element-title"></h3>
-        <h4 className="vertical-timeline-element-subtitle"></h4>
+        <h3 className="vertical-timeline-element-title">Phase II</h3>
+        <h4 className="vertical-timeline-element-subtitle">
+          175 more Blobs are coming...
+        </h4>
         <p></p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
